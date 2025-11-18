@@ -11,21 +11,24 @@ This project presents a complete data analytics workflow to analyze customer sho
 Retail businesses often struggle to understand what drives customer purchases, which customer groups spend more, and how product categories perform.
 This project aims to solve this by analyzing customer data to uncover behavioral patterns, spending habits, and performance indicators.
 
+
 ✔️ Project Objectives
 
-Identify customer segments based on demographics and past purchases.
+- Identify customer segments based on demographics and past purchases.
 
-Compare revenue patterns across gender, age groups, subscription status, and shipping types.
+- Compare revenue patterns across gender, age groups, subscription status, and shipping types.
 
-Evaluate product performance and rating trends.
+- Evaluate product performance and rating trends.
 
-Study discount usage and purchasing behavior.
+- Study discount usage and purchasing behavior.
 
-Build a dashboard that allows decision-makers to interact with insights.
+- Build a dashboard that allows decision-makers to interact with insights.
 
-Provide end-to-end documentation of the full analytics pipeline.
+- Provide end-to-end documentation of the full analytics pipeline.
+
 
 🗂 Project Structure
+
 │── Customer_shopping_Analysis.ipynb  # Python EDA Notebook
 
 │── Customer_shopping_Behavior_Analysis.sql  # SQL Queries & Insights
@@ -34,61 +37,69 @@ Provide end-to-end documentation of the full analytics pipeline.
 
 │── README.md
 
-🔍 Key Insights (SQL + Python)
 
-Based on SQL analysis: 
+🔍 Key Insights (SQL + Python)-
 
-Customer_shopping_Behavior_Analysis
 
-Male customers generated more total revenue than female customers.
+- Based on SQL analysis: 
 
-Customers using discounts but still spending above the average amount were identified.
+1.Customer_shopping_Behavior_Analysis
 
-Express shipping customers had slightly higher average spend (60.48) vs Standard (58.46).
+2.Male customers generated more total revenue than female customers.
 
-Subscribed customers showed higher spending and revenue contribution.
+3.Customers using discounts but still spending above the average amount were identified.
 
-Top 5 products with the highest discount usage were identified.
+4.Express shipping customers had slightly higher average spend (60.48) vs Standard (58.46).
 
-Customers segmented into New, Returning, Loyal using previous purchases.
+5.Subscribed customers showed higher spending and revenue contribution.
 
-Top 3 products per category extracted using window functions.
+6.Top 5 products with the highest discount usage were identified.
 
-Age groups contributing most revenue were identified.
+7.Customers segmented into New, Returning, Loyal using previous purchases.
+
+8.Top 3 products per category extracted using window functions.
+
+9.Age groups contributing most revenue were identified.
+
 
 📈 Key Performance Indicators (KPIs)
 
-Total Revenue,
 
-Average Purchase Amount,
+- Total Revenue,
 
-Revenue by Gender,
+- Average Purchase Amount,
 
-Revenue by Age Group,
+- Revenue by Gender,
 
-Discount Usage Rate,
+- Revenue by Age Group,
 
-Subscription Revenue Contribution,
+- Discount Usage Rate,
 
-Top Categories & Products,
+- Subscription Revenue Contribution,
 
-Customer Segment Distribution (New / Returning / Loyal)
+- Top Categories & Products,
+
+- Customer Segment Distribution (New / Returning / Loyal)
+
 
 📊 Power BI Dashboard Features
 
-Dynamic slicers for gender, category, age group, and shipping type
 
-KPI cards for revenue and customer metrics
+- Dynamic slicers for gender, category, age group, and shipping type
 
-Trend charts showing spending behavior
+- KPI cards for revenue and customer metrics
 
-Segmentation visuals (Loyal, Returning, New customers)
+- Trend charts showing spending behavior
 
-Product performance insights
+- Segmentation visuals (Loyal, Returning, New customers)
 
-Discount vs non-discount spending patterns
+- Product performance insights
+
+- Discount vs non-discount spending patterns
+
 
 📌 Methodology
+
 
 Data Cleaning & Preparation (Python)
 Handling missing values, formatting columns, correcting data types
@@ -102,27 +113,32 @@ Advanced queries using aggregations, window functions, CTEs
 Power BI Dashboard Creation
 Publishing insights visually for decision-making
 
+
 🛠 Technologies Used-
 
-Python (Pandas, NumPy, Matplotlib)
 
-SQL (Joins, CTEs, Window Functions)
+1.Python (Pandas, NumPy, Matplotlib)
 
-Power BI
+2.SQL (Joins, CTEs, Window Functions)
 
-Jupyter Notebook
+3.Power BI
+
+4.Jupyter Notebook
+
 
 🚀 Future Improvements-
 
-Build a machine learning model for customer purchase prediction
 
-Add clustering for deeper segmentation
+- Build a machine learning model for customer purchase prediction
 
-Automate data refresh for Power BI
+- Add clustering for deeper segmentation
 
-Implement A/B testing for discounts
+- Automate data refresh for Power BI
+
+- Implement A/B testing for discounts
+
 
 👤 Author
 
-Prashant Singh Bhadouria
+Prashant Singh Bhadouria,
 Aspiring Data Analyst.
