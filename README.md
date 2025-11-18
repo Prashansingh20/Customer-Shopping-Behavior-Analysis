@@ -13,29 +13,32 @@ This project aims to solve this by analyzing customer data to uncover behavioral
 
 ✔️ Project Objectives
 
-Identify customer segments based on demographics and past purchases
+Identify customer segments based on demographics and past purchases.
 
-Compare revenue patterns across gender, age groups, subscription status, and shipping types
+Compare revenue patterns across gender, age groups, subscription status, and shipping types.
 
-Evaluate product performance and rating trends
+Evaluate product performance and rating trends.
 
-Study discount usage and purchasing behavior
+Study discount usage and purchasing behavior.
 
-Build a dashboard that allows decision-makers to interact with insights
+Build a dashboard that allows decision-makers to interact with insights.
 
-Provide end-to-end documentation of the full analytics pipeline
+Provide end-to-end documentation of the full analytics pipeline.
 
 🗂 Project Structure
-│── Customer_shopping_Analysis.ipynb         # Python EDA Notebook
+│── Customer_shopping_Analysis.ipynb  # Python EDA Notebook
+
 │── Customer_shopping_Behavior_Analysis.sql  # SQL Queries & Insights
+
 │── Customer_Shopping_Behavior_Analysis.pbit # Power BI Dashboard Template
+
 │── README.md
 
 🔍 Key Insights (SQL + Python)
 
 Based on SQL analysis: 
 
-Customer_shopping_Behavior_Anal…
+Customer_shopping_Behavior_Analysis
 
 Male customers generated more total revenue than female customers.
 
@@ -55,19 +58,19 @@ Age groups contributing most revenue were identified.
 
 📈 Key Performance Indicators (KPIs)
 
-Total Revenue
+Total Revenue,
 
-Average Purchase Amount
+Average Purchase Amount,
 
-Revenue by Gender
+Revenue by Gender,
 
-Revenue by Age Group
+Revenue by Age Group,
 
-Discount Usage Rate
+Discount Usage Rate,
 
-Subscription Revenue Contribution
+Subscription Revenue Contribution,
 
-Top Categories & Products
+Top Categories & Products,
 
 Customer Segment Distribution (New / Returning / Loyal)
 
@@ -99,7 +102,7 @@ Advanced queries using aggregations, window functions, CTEs
 Power BI Dashboard Creation
 Publishing insights visually for decision-making
 
-🛠 Technologies Used
+🛠 Technologies Used-
 
 Python (Pandas, NumPy, Matplotlib)
 
@@ -109,7 +112,7 @@ Power BI
 
 Jupyter Notebook
 
-🚀 Future Improvements
+🚀 Future Improvements-
 
 Build a machine learning model for customer purchase prediction
 
