@@ -1,5 +1,7 @@
 📊 Customer Shopping Behavior Analysis
+
 End-to-End Data Analytics Project using Python, SQL, and Power BI
+
 📁 Project Overview
 
 This project presents a complete data analytics workflow to analyze customer shopping behavior across different demographics, product categories, and purchase patterns. Using Python for EDA, SQL for deeper querying, and Power BI for dashboard visualization, the project delivers actionable insights that can support business decisions, marketing strategies, and customer segmentation.
